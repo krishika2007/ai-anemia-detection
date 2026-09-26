@@ -1,29 +1,65 @@
-# AI-Based Anemia Detection
+# 🩸 AI-Based Anemia Detection
 
-## About the Project
+![AI-Based Anemia Detection](images/anemia-detection.jpg)
 
-This project focuses on using Artificial Intelligence and Machine Learning techniques for anemia detection.
+## 📌 Project Overview
 
-The aim of the project is to explore how AI can be used to support the detection of anemia using relevant health-related data.
+The **AI-Based Anemia Detection** project is a healthcare-focused Artificial Intelligence and Machine Learning solution designed to provide an early indication of possible anemia by analyzing visible color characteristics from images.
 
-## Technologies Used
+The project explores image-based analysis of areas such as **eye pallor and nail-bed pallor** and uses machine learning techniques for classification.
 
-- Python
-- Artificial Intelligence
-- Machine Learning
-- Data Science
+> ⚠️ This project is intended for educational and research purposes. It is not a medical diagnostic tool and should not replace professional medical evaluation or laboratory testing.
 
-## Features
+---
 
-- AI-based anemia detection
-- Data analysis and processing
-- Machine learning-based approach
-- Healthcare-focused application
+## 🎯 Objectives
 
-## Objective
+- Explore the use of AI and Machine Learning in healthcare.
+- Analyze images for visible characteristics associated with possible anemia.
+- Study image-based classification techniques.
+- Develop a system that can provide an initial indication from image data.
+- Understand the application of computer vision in healthcare.
 
-The objective of this project is to demonstrate the application of Artificial Intelligence and Machine Learning in healthcare, specifically for anemia detection.
+---
 
-## Project Type
+## 🔍 Key Features
 
-Academic / Student Project
+- 🖼️ Image-based analysis
+- 👁️ Analysis of visible eye pallor
+- 💅 Analysis of nail-bed color
+- 🤖 Machine Learning-based classification
+- 📊 Image preprocessing and analysis
+- 🧠 AI-based prediction
+- 💻 Simple and educational implementation
+
+---
+
+## 🧠 How It Works
+
+```text
+        ┌─────────────────────┐
+        │     Input Image     │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │ Image Preprocessing │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │ Feature Extraction  │
+        │                     │
+        │ Eye / Nail Color    │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │ Machine Learning    │
+        │ Classification      │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │ Prediction / Result │
+        └─────────────────────┘
